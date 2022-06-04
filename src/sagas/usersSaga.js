@@ -1,9 +1,13 @@
 import {} from 'redux-saga';
 
 
+function* fetchUsers(action) {
+    
+
+}
 
 function* usersSaga() {
-    yield takeEvery("", );
+    yield ("FETCH_USERS", fetchUsers);
 }
 
 export default usersSaga;

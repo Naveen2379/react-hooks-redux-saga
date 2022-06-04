@@ -2,6 +2,7 @@ import { Provider } from 'react-redux';
 import store from './store/store';
 import { Users } from './components/Users';
 import './App.css';
+import { Posts } from './components/Posts';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <h1>App</h1>
-        <Users />
+        {/* <Users /> */}
+        <Posts />
       </div>
     </Provider>
 
